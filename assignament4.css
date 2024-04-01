@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flex-container1 {
+
+    display: flex;
+    
+    justify-content: center; 
+    align-items: center;    
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    margin-top: 120px;
+
+  }
+
+  
+
+
+  .item1 { 
+    /* flex:0.6 1 auto; */
+    flex-grow:0.6;
+  }
+			
+  .item2 { 
+    /* flex:0.5 1 auto; */
+    flex-grow:0.5;
+    font-size: 25px;
+  }
+		
+
+  .flex-container2 {
+
+    display: flex;
+    
+    justify-content: space-between; 
+    align-items: center;    
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    margin-top: 100px;
+
+  }
+
+  
+
+
+  .item3 { 
+    /* flex:0.2 1 auto; */
+    flex-grow:0.2;
+  }
+			
+  .item4 { 
+    /* flex:0.2 1 auto; */
+    flex-grow:0.2;
+  }
+			
+  .item5 { 
+    /* flex:0.2 1 auto; */
+    flex-grow:0.2;
+  }
+			
+  .item6 { 
+    /* flex:0.2 1 auto; */
+    flex-grow:0.2;
+  }
+  .card-img-top {
+    width: 100%; /* This ensures the image covers the card width */
+    height: 15vw; /* This sets a fixed height for all images */
+    object-fit: cover; /* This ensures the image covers the set width and height, without stretching */
+}
+
+body{
+    background-color: rgb(119, 202, 191);
+}
+
